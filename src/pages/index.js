@@ -20,6 +20,7 @@ const IndexPage = () => (
                 date={node.frontmatter.date}
                 path={node.frontmatter.path}
                 body={node.excerpt}
+                tags={node.frontmatter.tags}
               />
             ))}
           </div>
@@ -30,16 +31,17 @@ const IndexPage = () => (
 )
 
 const indexQuery = graphql`
-  query {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+  query indexQuery {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           id
           frontmatter {
             title
-            date(formatString: "MM Do YYYY")
+            date(formatString: "MM Dd YYYY")
             author
             path
+            tags
           }
           excerpt
         }
