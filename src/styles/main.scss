@@ -1,13 +1,88 @@
-.post_image{
+.post_image {
   position: relative;
-  width: 200px;
-  height:200px;
+  //width: 200px;
+  //height:200px;
   background: #1b1b1b;
 }
 
-.single_post_image{
+.single_post_image {
   position: relative;
   width: 400px;
-  height:400px;
+  height: 400px;
   background: #1b1b1b;
+}
+
+$black: #1b1b1b;
+$lightBlack: #3f3f3f;
+$speed: 0.4s;
+
+// DRY CODE
+%home_image {
+  width: 30%;
+  height: 65%;
+  top: 15%;
+  transform: translateX(0px) scale(calc(8 / 9));
+}
+%page_image {
+  width: 30%;
+  height: 70%;
+  top: 10%;
+  transform: translateX(0px) scale(1);
+}
+
+@mixin center-left {
+  @extend %home_image;
+  left: 20%;
+}
+@mixin left-left {
+  @extend %page_image;
+  left: 10%;
+}
+@mixin center-right {
+  @extend %home_image;
+  right: 20%;
+}
+@mixin right-right {
+  @extend %page_image;
+  right: 10%;
+}
+
+// ANIMATION
+//.post {
+  .post_image {
+    position: absolute;
+    opacity: 1;
+    transition: all $speed ease-out, opacity 0s linear $speed;
+
+    &[data-page="blog-post"] {
+      background: black;
+      @include center-left;
+    }
+    &[data-page="post"] {
+      background: black;
+      @include left-left;
+    }
+  }
+//}
+
+.page-enter {
+  .post_image {
+    &[data-page="blog-post"] {
+      @include left-left;
+    }
+    &[data-page="post"] {
+      @include center-left;
+    }
+  }
+}
+
+.page-enter-done {
+  .post_image {
+    &[data-page="blog-post"] {
+      @include center-left;
+    }
+    &[data-page="post"] {
+      @include left-left;
+    }
+  }
 }

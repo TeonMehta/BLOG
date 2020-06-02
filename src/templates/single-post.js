@@ -9,7 +9,7 @@ const SinglePost = ({ data }) => {
     <>
       <SEO title={post.title} />
       <div className="single_post">
-        <div className="single_post_image"> </div>
+        <div className="post_image" data-page={"post"}></div>
         <article>
           <h1 className="single_title">{post.title}</h1>
           <div className="single_date">{post.date}</div> by{" "}

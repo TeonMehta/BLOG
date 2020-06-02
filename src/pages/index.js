@@ -13,7 +13,7 @@ const IndexPage = () => (
         return (
           <div>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <Post
+              <Post data-page={"blog-post"}
                 key={node.id}
                 title={node.frontmatter.title}
                 author={node.frontmatter.author}
