@@ -1,11 +1,10 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Post from "../components/Post"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <h1>my Blog</h1>
     <StaticQuery
@@ -28,7 +27,7 @@ const IndexPage = () => (
         )
       }}
     />
-  </Layout>
+  </>
 )
 
 const indexQuery = graphql`

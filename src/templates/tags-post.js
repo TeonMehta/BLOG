@@ -1,15 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
 import Post from "../components/Post"
 
 const TagsPost = ({ data, pageContext }) => {
-  const { tag } = pageContext
-  const { totalCount } = data.allMarkdownRemark
+  // const { tag } = pageContext
+  // const { totalCount } = data.allMarkdownRemark
   // const pageHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`
   return (
     <div>
-      <Layout>
+      <>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Post
             key={node.id}
@@ -21,7 +20,7 @@ const TagsPost = ({ data, pageContext }) => {
             tags={node.frontmatter.tags}
           />
         ))}
-      </Layout>
+      </>
     </div>
   )
 }
