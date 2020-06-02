@@ -7,7 +7,7 @@ import Post from "../components/Post"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>my Blog</h1>
     <StaticQuery
       query={indexQuery}
       render={data => {
@@ -39,7 +39,7 @@ const indexQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MM Dd YYYY")
+            date(formatString: "MMMM Do, YYYY")
             author
             tags
           }

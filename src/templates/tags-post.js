@@ -39,7 +39,7 @@ export const tagQuery = graphql`
         node {
           id
           frontmatter {
-            date(formatString: "MMM Dd YYY")
+            date(formatString: "MMMM Do, YYYY")
             author
             tags
           }
