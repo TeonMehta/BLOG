@@ -13,6 +13,5 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: author, label: Author }
-      - { name: tags, label: Tags}
-      - { name: tags, label: Tags}
+      - { name: tags, label: Tags, widget: List }
       - { name: body, label: Body, widget: markdown }
