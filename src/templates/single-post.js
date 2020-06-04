@@ -27,7 +27,7 @@ const SinglePost = ({ data }) => {
             ))}
           </ul>
         </article>
-        <Link to={'/'}>back</Link>
+        <Link to={"/"}>back</Link>
       </div>
     </>
   )
