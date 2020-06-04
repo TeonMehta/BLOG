@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/001-first-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/first-post/001-first-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/002-second-post.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/content/blog/first-post" />
       <recent name="$PROJECT_DIR$/src/layouts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590869970703</updated>
-      <workItem from="1590869972684" duration="38150000" />
+      <workItem from="1590869972684" duration="39930000" />
     </task>
     <servers />
   </component>
