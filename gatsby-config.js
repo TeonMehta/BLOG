@@ -9,6 +9,8 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-layout`,
       options: {
@@ -18,19 +20,23 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        // name: `images`,
+        path: `${__dirname}/blog/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
+        name: `blog`,
         path: `${__dirname}/blog`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

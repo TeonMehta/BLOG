@@ -16,6 +16,9 @@ const TagsPost = ({ data, pageContext }) => {
             title={node.frontmatter.title}
             author={node.frontmatter.author}
             date={node.frontmatter.date}
+            featuredImage={
+              node.frontmatter.featuredImage.childImageSharp.fluid
+            }
             body={node.export}
             tags={node.frontmatter.tags}
           />
@@ -41,6 +44,13 @@ export const tagQuery = graphql`
             date(formatString: "MMMM Do, YYYY")
             author
             tags
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           fields {
             slug

@@ -2,14 +2,20 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { slugify } from "../util/utilityFunctions"
+import Img from "gatsby-image"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
+  let featuredImgFluid = post.featuredImage.childImageSharp.fluid
   return (
     <>
       <SEO title={post.title} />
       <div className="single_post">
-        <div className="post_image" data-page={"post"}></div>
+        <Img
+          className="post_image"
+          data-page={"post"}
+          fluid={featuredImgFluid}
+        />
         <article>
           <h1 className="single_title">{post.title}</h1>
           <div className="single_date">{post.date}</div> by{" "}
@@ -43,6 +49,13 @@ export const postQuery = graphql`
         author
         date(formatString: "MMMM Do, YYYY")
         tags
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
