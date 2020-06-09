@@ -1,0 +1,29 @@
+// HEADER
+
+header {
+  ul {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    justify-content: flex-end;
+    .logo {
+      margin-right: auto;
+    }
+    li {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0 1% 0 0;
+      a {
+        color: #3f3f3f;
+        outline: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 1.2px;
+      }
+      a:hover {
+        color: #999999;
+        text-decoration: none;
+      }
+    }
+  }
+}

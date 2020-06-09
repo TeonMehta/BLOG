@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
 import "./layout.css"
 import "../styles/main.scss"
+import "../styles/MonumentExtended-Regular.otf"
 import Transition from "../components/Transition"
 
 const Layout = ({ children, location }) => {
@@ -27,10 +28,8 @@ const Layout = ({ children, location }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <Transition location={location}>{children}</Transition>
-      </div>
+      {/*<Header siteTitle={data.site.siteMetadata.title} />*/}
+      <Transition location={location}>{children}</Transition>
     </>
   )
 }

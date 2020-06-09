@@ -1,23 +1,28 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "../styles/header.scss"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div style={{ display: `flex` }}>
-      <h1>
+
+    <ul style={{ display: `flex` }}>
+      <li className="logo">
+        <Link to="/">TEON MEHTA</Link>
+      </li>
+      <li>
         <Link to="/">{siteTitle}</Link>
-      </h1>
-      <h1>
-        <Link to="/about">ABout</Link>
-      </h1>
-      <h1>
-        <Link to="/topics">Topics</Link>
-      </h1>
-      <h1>
-        <Link to="/team">Team</Link>
-      </h1>
-    </div>
+      </li>
+      <li>
+        <Link to="/about">BLOG</Link>
+      </li>
+      <li>
+        <Link to="/topics">ABOUT</Link>
+      </li>
+      <li>
+        <Link to="/team">Topics</Link>
+      </li>
+    </ul>
   </header>
 )
 

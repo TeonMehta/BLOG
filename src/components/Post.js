@@ -14,18 +14,18 @@ const Post = ({ title, author, slug, date, body, tags, featuredImage }) => {
         />
       </Link>
       <div className="post_title">{title}</div>
-      <div className="post_date">{date}</div> by{" "}
-      <div className="post_author">{author}</div>
+      {/*<div className="post_date">{date}</div>*/}
+      {/*<div className="post_author">{author}</div>*/}
       <br />
-      <div className="post_body">{body}</div>
+      {/*<div className="post_body">{body}</div>*/}
       <ul className="post_tags">
         {tags.map(tag => (
-          <li key={tag}>
+          <li className={"tag"} key={tag}>
             <Link to={`/tag/${slugify(tag)}`}> {tag}</Link>
           </li>
         ))}
       </ul>
-      <Link to={slug}>Read More</Link>
+      <Link to={slug}>Read</Link>
     </div>
   )
 }

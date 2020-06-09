@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Titillium+Web:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Poppins:wght@100;300;400;500;700&family=Staatliches&display=swap");
 .post_image {
   position: relative;
-  //width: 200px;
-  //height:200px;
   background: #1b1b1b;
+}
+a {
+  color: #1b1b1b;
 }
 
 .single_post_image {
@@ -49,20 +57,20 @@ $speed: 0.4s;
 
 // ANIMATION
 //.post {
-  .post_image {
-    position: absolute;
-    opacity: 1;
-    transition: all $speed ease-out, opacity 0s linear $speed;
+.single_image {
+  position: absolute;
+  opacity: 1;
+  transition: all $speed ease-out, opacity 0s linear $speed;
 
-    &[data-page="blog-post"] {
-      background: black;
-      @include center-left;
-    }
-    &[data-page="post"] {
-      background: black;
-      @include left-left;
-    }
+  &[data-page="blog-post"] {
+    background: black;
+    @include center-left;
   }
+  &[data-page="post"] {
+    background: black;
+    @include left-left;
+  }
+}
 //}
 
 .page-enter {
@@ -85,4 +93,24 @@ $speed: 0.4s;
       @include left-left;
     }
   }
+}
+
+.blog-page-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.post {
+  grid-column: 1/6;
+}
+.post:nth-child(even) {
+  margin-top: 50%;
+  grid-column: 8/13;
+}
+
+.post_title {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+}
+.post_tags {
+  list-style: none;
 }

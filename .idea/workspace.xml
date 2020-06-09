@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/barcode-t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/using-typescript.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tags-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags-post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,8 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/blog" />
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1590869970703</updated>
       <workItem from="1590869972684" duration="45481000" />
-      <workItem from="1591304629282" duration="8174000" />
+      <workItem from="1591304629282" duration="23590000" />
+      <workItem from="1591665734302" duration="247000" />
+      <workItem from="1591666837615" duration="5255000" />
     </task>
     <servers />
   </component>
@@ -83,9 +87,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591665437240">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1591665437240" />
     <state x="302" y="177" key="EditFileWatcherDialog" timestamp="1591068887223">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="302" y="177" key="EditFileWatcherDialog/0.0.1280.800@0.0.1280.800" timestamp="1591068887223" />
+    <state x="228" y="141" key="IDE.errors.dialog" timestamp="1591666702898">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="141" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1591666702898" />
   </component>
 </project>

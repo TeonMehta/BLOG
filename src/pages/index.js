@@ -2,19 +2,22 @@ import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import SEO from "../components/seo"
 import Post from "../components/Post"
-
+import Container from "react-bootstrap/Container"
+import "bootstrap/dist/css/bootstrap.min.css"
+import Header from "../components/header"
 const IndexPage = () => (
   <>
     <SEO title="Home" />
-    <h1>my Blog</h1>
+    <Header siteTitle={"title"} />
     <StaticQuery
       query={indexQuery}
       render={data => {
-        console.log(data)
+        console.log(data.allMarkdownRemark.edges)
         return (
-          <div>
-            {data.allMarkdownRemark.edges.map(({ node }) => (
+          <Container className={"blog-page-container"} fluid>
+            {data.allMarkdownRemark.edges.map(({ node, i }) => (
               <Post
+                className="post--"
                 data-page={"blog-post"}
                 key={node.id}
                 title={node.frontmatter.title}
@@ -24,11 +27,11 @@ const IndexPage = () => (
                 featuredImage={
                   node.frontmatter.featuredImage.childImageSharp.fluid
                 }
-                body={node.excerpt}
+                //body={node.excerpt}
                 tags={node.frontmatter.tags}
               />
             ))}
-          </div>
+          </Container>
         )
       }}
     />
@@ -48,7 +51,7 @@ const indexQuery = graphql`
             tags
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 800) {
+                fluid(maxWidth: 1000) {
                   ...GatsbyImageSharpFluid
                 }
               }

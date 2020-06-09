@@ -1,0 +1,65 @@
+$black: #1b1b1b;
+.single_post {
+  width: 100vw;
+  height: 100vh;
+}
+.single_image {
+  position: fixed !important;
+  width: 40%;
+  height: 100%;
+}
+article {
+  position: absolute;
+  left: 40%;
+  width: 60%;
+  height: 100%;
+  padding: 4em;
+  color: #3f3f3f;
+  font-family: "Titillium Web", sans-serif;
+  //font-family: 'Darker Grotesque', sans-serif;
+}
+.back {
+  position: absolute;
+  top: 2.5%;
+  right: 5%;
+  text-align: right;
+  font-family: "Anton", sans-serif;
+}
+.single_title {
+  font-family: "Anton", sans-serif;
+  font-size: 4em;
+}
+.single_date {
+  text-align: right;
+  font-size: 12px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.single_author,
+.single_tags {
+  font-family: "Darker Grotesque", sans-serif;
+  transform: rotate(-90deg);
+  position: fixed;
+  font-size: 12px;
+  left: 40%;
+}
+.single_author {
+  bottom: 10%;
+  font-family: 'Staatliches', cursive;
+}
+.single_tags {
+  display: none;
+  list-style: none;
+  top: 20%;
+  margin: 0;
+  text-align: center;
+  .tag{
+    display: inline-block;
+  }
+}
+.single_body {
+  font-size: 16pt;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Poppins', sans-serif;
+
+}
