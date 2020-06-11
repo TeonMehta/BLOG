@@ -14,6 +14,7 @@ const TagsPost = ({ data, pageContext }) => {
             key={node.id}
             slug={node.fields.slug}
             title={node.frontmatter.title}
+            subtitle={node.frontmatter.subtitle}
             author={node.frontmatter.author}
             date={node.frontmatter.date}
             featuredImage={

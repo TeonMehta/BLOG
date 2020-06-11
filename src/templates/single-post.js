@@ -23,6 +23,7 @@ const SinglePost = ({ data }) => {
             &#8592; Back
           </Link>
           <h1 className="single_title">{post.title}</h1>
+          <h4 className="single_subtitle">{post.subtitle}</h4>
           <div className="single_date">{post.date}</div>
           <div className="single_author">{post.author}</div>{" "}
           <ul className="single_tags">
@@ -49,6 +50,7 @@ export const postQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         author
         date(formatString: "MMMM Do, YYYY")
         tags

@@ -1,12 +1,18 @@
 // HEADER
 
 header {
+  //position: fixed;
   ul {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    position: fixed;
     .logo {
       margin-right: auto;
+      font-family: 'Libre Barcode 128', cursive;
+      margin-left: 1.45rem;
     }
     li {
       display: inline-block;

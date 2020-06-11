@@ -21,6 +21,7 @@ const IndexPage = () => (
                 data-page={"blog-post"}
                 key={node.id}
                 title={node.frontmatter.title}
+                title={node.frontmatter.subtitle}
                 author={node.frontmatter.author}
                 date={node.frontmatter.date}
                 slug={node.fields.slug}
@@ -46,6 +47,7 @@ const indexQuery = graphql`
           id
           frontmatter {
             title
+            subtitle
             date(formatString: "MMMM Do, YYYY")
             author
             tags
