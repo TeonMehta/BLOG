@@ -5,23 +5,22 @@ import "../styles/header.scss"
 
 const Header = ({ siteTitle }) => (
   <header>
-
     <ul style={{ display: `flex` }}>
       <li className="logo">
         <Link to="/">TEON MEHTA</Link>
       </li>
       <li>
-        <Link to="/">{siteTitle}</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/about">BLOG</Link>
+        <Link to="/blog">BLOG</Link>
       </li>
-      <li>
-        <Link to="/topics">ABOUT</Link>
-      </li>
-      <li>
-        <Link to="/team">Topics</Link>
-      </li>
+      {/*<li>*/}
+      {/*  <Link to="/about">ABOUT</Link>*/}
+      {/*</li>*/}
+      {/*<li>*/}
+      {/*  <Link to="/contact">CONTACT</Link>*/}
+      {/*</li>*/}
     </ul>
   </header>
 )
@@ -35,6 +34,3 @@ Header.defaultProps = {
 }
 
 export default Header
-
-
-

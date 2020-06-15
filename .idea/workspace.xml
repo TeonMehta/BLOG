@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transition.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/using-typescript.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/single_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/single_post.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tags-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,8 @@
       <workItem from="1591304629282" duration="23590000" />
       <workItem from="1591665734302" duration="247000" />
       <workItem from="1591666837615" duration="7390000" />
-      <workItem from="1591821768820" duration="3748000" />
+      <workItem from="1591821768820" duration="8957000" />
+      <workItem from="1591997969668" duration="13725000" />
     </task>
     <servers />
   </component>
@@ -99,5 +101,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="141" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1591666702898" />
+    <state x="303" y="121" key="search.everywhere.popup" timestamp="1591919032346">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="303" y="121" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1591919032346" />
   </component>
 </project>

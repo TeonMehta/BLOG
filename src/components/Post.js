@@ -15,19 +15,11 @@ const Post = ({
 }) => {
   return (
     <div className={"post"}>
-      <Link to={slug}>
-        <Img
-          className="post_image"
-          data-page={"blog-post"}
-          fluid={featuredImage}
-        />
+      <Link to={slug} className="post_image">
+        <Img data-page={"blog-post"} fluid={featuredImage} />
       </Link>
+      <div className="post_number"></div>
       <div className="post_title">{title}</div>
-      <div className="post_subtitle">{subtitle}</div>
-      {/*<div className="post_date">{date}</div>*/}
-      {/*<div className="post_author">{author}</div>*/}
-      <br />
-      {/*<div className="post_body">{body}</div>*/}
       <ul className="post_tags">
         {tags.map(tag => (
           <li className={"tag"} key={tag}>
@@ -35,7 +27,11 @@ const Post = ({
           </li>
         ))}
       </ul>
-      <Link to={slug}>Read</Link>
+      <div className="post_subtitle">{subtitle}</div>
+      <Link to={slug} className={"read_now"}>Read Now</Link>
+      {/*<div className="post_date">{date}</div>*/}
+      {/*<div className="post_author">{author}</div>*/}
+      {/*<div className="post_body">{body}</div>*/}
     </div>
   )
 }

@@ -19,7 +19,7 @@ const SinglePost = ({ data }) => {
         />
 
         <article>
-          <Link to={"/"} className={"back"}>
+          <Link to={"/blog"} className={"back"}>
             &#8592; Back
           </Link>
           <h1 className="single_title">{post.title}</h1>
@@ -33,6 +33,7 @@ const SinglePost = ({ data }) => {
               </li>
             ))}
           </ul>
+          <br/>
           <div
             className="single_body"
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}

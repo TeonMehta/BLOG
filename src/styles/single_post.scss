@@ -15,7 +15,8 @@ article {
   height: 100%;
   padding: 4em;
   color: #3f3f3f;
-  font-family: "Titillium Web", sans-serif;
+  //font-family: "Titillium Web", sans-serif;
+  font-family: 'Oswald', sans-serif;
   //font-family: 'Darker Grotesque', sans-serif;
 }
 .back {
@@ -23,7 +24,7 @@ article {
   top: 2.5%;
   right: 5%;
   text-align: right;
-  font-family: "Anton", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .single_title {
   font-family: "Anton", sans-serif;
@@ -32,11 +33,11 @@ article {
 .single_date {
   text-align: right;
   font-size: 12px;
-  font-family: "Darker Grotesque", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .single_author,
 .single_tags {
-  font-family: "Darker Grotesque", sans-serif;
+  font-family: 'Oswald', sans-serif;
   transform: rotate(-90deg);
   position: fixed;
   font-size: 12px;
@@ -44,7 +45,8 @@ article {
 }
 .single_author {
   bottom: 10%;
-  font-family: 'Staatliches', cursive;
+  //font-family: 'Staatliches', cursive;
+  font-family: "Darker Grotesque", sans-serif;
 }
 .single_tags {
   display: none;
@@ -58,8 +60,12 @@ article {
 }
 .single_body {
   font-size: 16pt;
+  //font-family: 'Montserrat', sans-serif;
+  //font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
-  //font-family: 'Poppins', sans-serif;
+
+}
+// MOBILE
+@media only screen and (max-width: 768px) {
 
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import { TransitionGroup, CSSTransition } from "react-transition-group"
-
+import "../styles/animation.scss"
 class Transition extends React.PureComponent {
   render() {
     const { children, location } = this.props
