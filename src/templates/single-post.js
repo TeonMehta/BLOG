@@ -33,7 +33,7 @@ const SinglePost = ({ data }) => {
               </li>
             ))}
           </ul>
-          <br/>
+          <br />
           <div
             className="single_body"
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
