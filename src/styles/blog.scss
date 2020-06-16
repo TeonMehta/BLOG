@@ -96,15 +96,21 @@ a {
 // MOBILE
 @media only screen and (max-width: 768px) {
   .post:nth-child(even), .post:nth-child(odd) {
+    display: block;
+    position: relative;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+    padding: 5% 0;
+    margin-top: 5%;
 
     .post_title {
-      grid-column: 1/13;
-      grid-row: 1/1;
+
       text-align: center;
       font-size: 2em;
     }
 
     .post_tags {
+      display: none;
       top: 0!important;
       text-align: left;
       grid-column: 1/13;
@@ -120,5 +126,10 @@ a {
     left: 0!important;
     width: 100%;
     margin-top: 15%;
+    padding: 1em;
+    box-shadow: none;
+  }
+  .read_now{
+    display:none
   }
 }

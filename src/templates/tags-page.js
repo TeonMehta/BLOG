@@ -1,12 +1,14 @@
 import React from "react"
 import SEO from "../components/seo"
 import { slugify } from "../util/utilityFunctions"
+import Header from "../components/header"
 
 const TagsPage = ({ pageContext }) => {
   const { tags, tagPostCounts } = pageContext
 
   return (
     <>
+      <Header/>
       <SEO title="All tags" />
       <ul>
         {tags.map(tag => (
