@@ -15,9 +15,6 @@ const Post = ({
 }) => {
   return (
     <div className={"post"}>
-      <Link to={slug} className="post_image">
-        <Img data-page={"blog-post"} fluid={featuredImage} />
-      </Link>
       <div className="post_number"></div>
       <div className="post_title">{title}</div>
       <ul className="post_tags">
@@ -28,7 +25,12 @@ const Post = ({
         ))}
       </ul>
       <div className="post_subtitle">{subtitle}</div>
-      <Link to={slug} className={"read_now"}>Read Now</Link>
+      <Link to={slug} className="post_image">
+        <Img data-page={"blog-post"} fluid={featuredImage} />
+      </Link>
+      {/*<Link to={slug} className={"read_now"}>*/}
+      {/*  Read Now*/}
+      {/*</Link>*/}
       {/*<div className="post_date">{date}</div>*/}
       {/*<div className="post_author">{author}</div>*/}
       {/*<div className="post_body">{body}</div>*/}

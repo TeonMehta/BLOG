@@ -1,15 +1,15 @@
 // HEADER
 
 header {
-  //position: fixed;
+  z-index: 1;
   ul {
-    //font-family: "Montserrat", sans-serif;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     justify-content: flex-end;
     width: 100%;
     margin: 0;
     position: fixed;
+    background: white;
     .logo {
       margin-right: auto;
       font-family: 'Oswald', sans-serif;

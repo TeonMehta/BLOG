@@ -10,7 +10,7 @@
 
 .start_reading {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   font-family: "Anton", sans-serif;
   a {
     position: absolute;
@@ -19,6 +19,9 @@
     width: 100%;
     font-size: 4em;
     transition: 0.4s ease-in-out;
+  }
+  a:hover{
+    text-decoration: line-through;
   }
 }
 * {
@@ -29,7 +32,7 @@ a {
 }
 a:hover {
   color: #1a1a1a !important;
-  text-decoration: none !important;
+  //text-decoration: none !important;
 }
 
 html,
@@ -41,12 +44,13 @@ body {
 }
 
 footer {
-  width: 100%;
+  width: 100vw;
   font-family: "Oswald", sans-serif;
   font-size: 10px;
   position: absolute;
   bottom: 0;
   margin: 0;
+
   .social {
     position: absolute;
     bottom: 0;

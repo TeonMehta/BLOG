@@ -13,19 +13,34 @@ a {
   margin-top: 10%;
 }
 .post {
+  margin: 0 5%;
   font-family: "Oswald", sans-serif;
-  width: 100%;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  width: 90%;
+  height: 100%;
+}
+.gatsby-image-wrapper{
+  width:50%;
+}
+.gatsby-image-wrapper:hover:before {
+  opacity: 1;
+}
+.gatsby-image-wrapper:before{
+  content: "Read";
+  padding-top: 30%;
+  text-align: center;
+  color: #fff;
+  background: #1b1b1b;
+  position: absolute;
+  left: 0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  opacity: 0;
 }
 .post_image {
-  box-shadow: -1px 0px 19px 0px rgba(118, 118, 118, 0.66);
-  -webkit-box-shadow: -1px 0px 19px 0px rgba(118, 118, 118, 0.66);
-  -moz-box-shadow: -1px 0px 19px 0px rgba(118, 118, 118, 0.66);
-  position: absolute;
-  width: 40%;
+  position: relative;
+  width: 100%;
+
 }
 // LEFT POSTS
 .post:nth-child(odd) {
@@ -39,13 +54,14 @@ a {
     top: 20%;
   }
   .post_subtitle {
-    grid-row: 5/7;
+    grid-row: 3/7;
   }
   .read_now {
-    grid-row: 7/9;
+    grid-row: 4/6;
   }
   .post_image {
-    left: 10%;
+    grid-column: 2/7;
+    grid-row: 1/5;
   }
 }
 //RIGHT POSTS
@@ -55,18 +71,21 @@ a {
   .post_tags,
   .read_now {
     grid-column: 3/6;
+    text-align: right;
   }
   .post_tags {
     top: 20%;
+    justify-content: flex-end;
   }
   .post_subtitle {
-    grid-row: 5/7;
+    grid-row: 3/7;
   }
   .read_now {
-    grid-row: 7/9;
+    grid-row: 4/6;
   }
   .post_image {
-    right: 10%;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -95,17 +114,19 @@ a {
 }
 // MOBILE
 @media only screen and (max-width: 768px) {
+  .gatsby-image-wrapper{
+    width:100%;
+  }
   .post:nth-child(even), .post:nth-child(odd) {
     display: block;
-    position: relative;
+    //position: absolute;
     grid-template-columns: 0;
     grid-template-rows: 0;
     padding: 5% 0;
     margin-top: 5%;
 
     .post_title {
-
-      text-align: center;
+      text-align: center!important;
       font-size: 2em;
     }
 
@@ -120,7 +141,7 @@ a {
   .post_subtitle {
     grid-column: 1/1;
     grid-row: 10/10;
-    text-align: center;
+    text-align: center!important;
   }
   .post_image {
     left: 0!important;
@@ -131,5 +152,15 @@ a {
   }
   .read_now{
     display:none
+  }
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+  .post {
+    height: 50vh;
   }
 }
