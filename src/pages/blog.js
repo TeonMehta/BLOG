@@ -29,9 +29,9 @@ const BlogPage = () => (
                 author={node.frontmatter.author}
                 date={node.frontmatter.date}
                 slug={node.fields.slug}
-                featuredImage={
-                  node.frontmatter.featuredImage.childImageSharp.fluid
-                }
+                // featuredImage={
+                //   node.frontmatter.featuredImage.childImageSharp.fluid
+                // }
                 //body={node.excerpt}
                 tags={node.frontmatter.tags}
               />
