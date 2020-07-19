@@ -1,23 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 import { slugify } from "../util/utilityFunctions"
-import Img from "gatsby-image"
 
-const Post = ({
-  title,
-  subtitle,
-  author,
-  slug,
-  date,
-  body,
-  tags,
-}) => {
+const Post = ({ title, subtitle, author, slug, date, body, tags }) => {
   return (
     <article className={"post"}>
       <div className="post_number"></div>
       <Link to={slug} className={"read_now"}>
         <div className="post_title">{title}</div>
       </Link>
+      <div className="post_date">{date}</div>
       <ul className="post_tags">
         {tags.map(tag => (
           <li className={"tag"} key={tag}>
@@ -25,7 +17,6 @@ const Post = ({
           </li>
         ))}
       </ul>
-      <div className="post_date">{date}</div>
       <div className="post_subtitle">{subtitle}</div>
       {/*<div className="post_author">{author}</div>*/}
       {/*<div className="post_body">{body}</div>*/}

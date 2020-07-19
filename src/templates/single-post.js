@@ -3,18 +3,18 @@ import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { slugify } from "../util/utilityFunctions"
 import "../styles/single_post.scss"
+import Header from "../components/header"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
   return (
     <>
       <SEO title={post.title} />
-      <div className="single_post">
+      <div className="single_post container-fluid" fluid>
 
         <article>
-          <Link to={"/blog"} className={"back"}>
-            &#8592; Back
-          </Link>
+          <Header />
           <h1 className="single_title">{post.title}</h1>
           <h4 className="single_subtitle">{post.subtitle}</h4>
           <div className="single_date">{post.date}</div>
@@ -31,6 +31,10 @@ const SinglePost = ({ data }) => {
             className="single_body"
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
+          <br/>
+          <Link to={"/blog"} className={"back"}>
+            &#8592; Back
+          </Link>
         </article>
       </div>
     </>

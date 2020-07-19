@@ -1,30 +1,25 @@
 $black: #1b1b1b;
 $lightBlack: #3f3f3f;
 $speed: 0.4s;
-header {
-  position: fixed;
-  top: 0;
-}
 a {
   color: #1b1b1b;
 }
-.blog-page-container {
-  margin-top: 10%;
-}
 .post {
-  margin: 0 5%;
   font-family: "Oswald", sans-serif;
   width: 90%;
   height: 100%;
 }
-
 .post_title {
   font-family: "Anton", sans-serif;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 3em;
+}
+.post_date{
+  font-size: 10px;
 }
 .post_subtitle {
   font-weight: 300;
+  font-size: 1.3em;
 }
 .post_tags {
   margin: 0;
@@ -33,55 +28,21 @@ a {
   li a {
     color: #1a1a1a;
     text-transform: uppercase;
-    font-size: 10px;
-    margin: 0px 10px;
+    font-size: .5em;
+    margin-right: 10px;
+    pointer-events: none;
   }
 }
 .read_now{
   font-family: "Anton", sans-serif;
   font-size: .7em;
+  a:hover{
+    text-decoration: none;
+  }
 }
 // MOBILE
 @media only screen and (max-width: 768px) {
-  .gatsby-image-wrapper{
-    width:100%;
-  }
-  .post:nth-child(even), .post:nth-child(odd) {
-    display: block;
-    //position: absolute;
-    grid-template-columns: 0;
-    grid-template-rows: 0;
-    padding: 5% 0;
-    margin-top: 5%;
 
-    .post_title {
-      text-align: center!important;
-      font-size: 2em;
-    }
-
-    .post_tags {
-      display: none;
-      top: 0!important;
-      text-align: left;
-      grid-column: 1/13;
-      grid-row: 2/2;
-    }
-  }
-  .post_subtitle {
-    grid-column: 1/1;
-    grid-row: 10/10;
-    text-align: center!important;
-  }
-  .post_image {
-    left: 0!important;
-    width: 100%;
-    margin-top: 15%;
-    padding: 1em;
-    box-shadow: none;
-  }
-  .read_now{
-    display:none
-  }
 }
 
 @media only screen
@@ -89,7 +50,5 @@ and (min-device-width: 375px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3) {
 
-  .post {
-    height: 50vh;
-  }
 }
+

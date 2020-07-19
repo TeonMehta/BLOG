@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/single_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/single_post.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
     </list>
@@ -17,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +94,10 @@
       <workItem from="1592850636570" duration="367000" />
       <workItem from="1592860904739" duration="7826000" />
       <workItem from="1593102499045" duration="50000" />
-      <workItem from="1593897492502" duration="2364000" />
+      <workItem from="1593897492502" duration="4202000" />
+      <workItem from="1594057482147" duration="3286000" />
+      <workItem from="1594163260301" duration="5883000" />
+      <workItem from="1595120407993" duration="4120000" />
     </task>
     <servers />
   </component>
@@ -103,6 +114,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1591665437240" />
+    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594076074601">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1594076074601" />
     <state x="302" y="177" key="EditFileWatcherDialog" timestamp="1591068887223">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -111,13 +126,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="141" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1591666702898" />
-    <state x="149" y="39" key="SettingsEditor" timestamp="1592254272233">
+    <state x="119" y="31" key="SettingsEditor" timestamp="1595129019876">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1592254272233" />
-    <state x="303" y="121" key="search.everywhere.popup" timestamp="1591919032346">
+    <state x="119" y="31" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1595129019876" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1595132168087">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="303" y="121" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1591919032346" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595132168087" />
   </component>
 </project>

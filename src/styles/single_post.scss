@@ -1,27 +1,15 @@
 $black: #1b1b1b;
 .single_post {
   width: 100vw;
-  height: 100vh;
-}
-.single_image {
-  position: fixed !important;
-  width: 40%;
   height: 100%;
+  min-height: 100vh;
 }
 article {
-  //position: absolute;
-  left: 40%;
-  width: 60%;
-  height: 100%;
-  padding: 4em;
-  color: #3f3f3f;
   font-family: 'Oswald', sans-serif;
 }
-.back {
-  position: absolute;
-  top: 2.5%;
-  right: 5%;
-  text-align: right;
+.back{
+  display: flex;
+  justify-content: flex-end;
 }
 .single_title {
   font-family: "Anton", sans-serif;
@@ -42,18 +30,6 @@ article {
 }
 // MOBILE
 @media only screen and (max-width: 768px) {
-  .single_image {
-    position: absolute !important;
-    width: 100%;
-    height: 50vh;
-    z-index: 1;
-  }
-  article{
-    left: 0;
-    width: 100%;
-    padding: 1em;
-    top: 60vh;
-  }
   .single_author{
     transform: none;
     position: initial;
@@ -67,9 +43,6 @@ article {
   }
   .single_subtitle{
     margin-bottom: 10%;
-  }
-  .single_body {
-    padding: 5% 0;
   }
   .back {
     background: #fff;
