@@ -52,7 +52,7 @@ body.dark {
   .post_title,
   .post_tags li a,
   a,
-  .light-dark {
+  .light-dark, .bio {
     color: white;
     background: hsl(0, 0%, 10%);
   }
@@ -60,7 +60,6 @@ body.dark {
 
 .main,
 .post,
-header,
 article {
   margin-left: auto;
   margin-right: auto;

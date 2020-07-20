@@ -5,6 +5,7 @@ import Post from "../components/Post"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/blog.scss"
 import Header from "../components/header"
+import Bio from "../components/bio"
 
 const BlogPage = () => (
   <>
@@ -16,6 +17,7 @@ const BlogPage = () => (
         return (
           <div className={"blog-page-container"} fluid>
             <Header />
+            <Bio/>
             {data.allMarkdownRemark.edges.map(({ node, i }) => (
               <Post
                 className="post--"
