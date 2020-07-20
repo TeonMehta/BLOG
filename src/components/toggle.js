@@ -19,9 +19,6 @@ const Toggle = () => {
             <span className="light-dark-text">Dark mode</span>
           </div>
         )}
-        {
-
-        }
       </ThemeToggler>
     </>
   )

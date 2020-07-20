@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TeonMehta/BLOG
+  repo: TeonMehta/TEONMEHTA
 media_folder: static/assets
 public_folder: /assets
 collections:

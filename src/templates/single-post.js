@@ -12,7 +12,6 @@ const SinglePost = ({ data }) => {
     <>
       <SEO title={post.title} />
       <div className="single_post container-fluid" fluid>
-
         <article>
           <Header />
           <h1 className="single_title">{post.title}</h1>
@@ -31,7 +30,7 @@ const SinglePost = ({ data }) => {
             className="single_body"
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
-          <br/>
+          <br />
           <Link to={"/blog"} className={"back"}>
             &#8592; Back
           </Link>

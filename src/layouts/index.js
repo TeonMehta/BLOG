@@ -12,7 +12,6 @@ import PropTypes from "prop-types"
 import "./layout.css"
 import "../styles/main.scss"
 import "../styles/MonumentExtended-Regular.otf"
-//import Transition from "../components/Transition"
 
 const Layout = ({ children, location }) => {
   // const data = useStaticQuery(graphql`

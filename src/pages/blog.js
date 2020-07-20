@@ -8,7 +8,7 @@ import Header from "../components/header"
 
 const BlogPage = () => (
   <>
-    <SEO title="Home" />
+    <SEO title="A Personal Blog" />
     <StaticQuery
       query={blogQuery}
       render={data => {

@@ -2,7 +2,7 @@ $black: #1b1b1b;
 $lightBlack: #3f3f3f;
 $speed: 0.4s;
 a {
-  color: #1b1b1b;
+  color: $black;
 }
 .post {
   font-family: "Oswald", sans-serif;
@@ -14,7 +14,7 @@ a {
   text-transform: uppercase;
   font-size: 3em;
 }
-.post_date{
+.post_date {
   font-size: 10px;
 }
 .post_subtitle {
@@ -28,27 +28,21 @@ a {
   li a {
     color: #1a1a1a;
     text-transform: uppercase;
-    font-size: .5em;
+    font-size: 0.5em;
     margin-right: 10px;
     pointer-events: none;
   }
 }
-.read_now{
+.read_now {
   font-family: "Anton", sans-serif;
-  font-size: .7em;
-  a:hover{
+  font-size: 0.7em;
+  a:hover {
     text-decoration: none;
   }
 }
 // MOBILE
 @media only screen and (max-width: 768px) {
-
 }
 
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3) {
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
 }
-
