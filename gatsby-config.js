@@ -13,6 +13,20 @@ module.exports = {
     `gatsby-plugin-sharp`,
     'gatsby-plugin-dark-mode',
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: 'carbon',
+              theme: 'blackboard'
+            }
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/layouts/index.js`),

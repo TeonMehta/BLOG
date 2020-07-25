@@ -54,18 +54,22 @@ header {
     font-size: 1.4427rem;
   }
 }
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
+//.h2,
+//.h3,
+//.h4,
+//.h5,
+//.h6,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h1,{
   margin: 1rem 0;
   font-weight: bold;
+}
+h3 {
+  font-size: 2rem;
 }
 h3 {
   font-size: 2rem;
@@ -73,8 +77,12 @@ h3 {
 h4 {
   font-size: 1.75rem;
 }
-.single_subtitle {
+.single_subtitle, .single_title {
   font-weight: normal;
+}
+
+deckgo-highlight-code{
+  margin: 2rem 0;
 }
 // MOBILE
 @media only screen and (max-width: 768px) {
