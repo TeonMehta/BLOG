@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="" />
+    <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/MonumentExtended-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/single_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/single_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,7 +97,9 @@
       <workItem from="1594057482147" duration="3286000" />
       <workItem from="1594163260301" duration="5883000" />
       <workItem from="1595120407993" duration="4342000" />
-      <workItem from="1595195851746" duration="8342000" />
+      <workItem from="1595195851746" duration="8665000" />
+      <workItem from="1595464353910" duration="375000" />
+      <workItem from="1595640623781" duration="4032000" />
     </task>
     <servers />
   </component>
@@ -100,10 +116,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1591665437240" />
-    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594076074601">
+    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595645125084">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1594076074601" />
+    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1595645125084" />
     <state x="302" y="177" key="EditFileWatcherDialog" timestamp="1591068887223">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

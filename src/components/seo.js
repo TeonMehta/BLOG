@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `From the ground up. A blog by Teon Mehta. Focused on Computer Science. Programming. Tech.`,
 }
 
 SEO.propTypes = {

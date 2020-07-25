@@ -5,13 +5,14 @@ import { slugify } from "../util/utilityFunctions"
 import "../styles/single_post.scss"
 import Header from "../components/header"
 import "bootstrap/dist/css/bootstrap.min.css"
+import Footer from "../components/footer"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
   return (
     <>
       <SEO title={post.title} />
-      <div className="single_post container-fluid" fluid>
+      <div className="single_post container-fluid">
         <article>
           <Header />
           <h1 className="single_title">{post.title}</h1>
@@ -30,10 +31,7 @@ const SinglePost = ({ data }) => {
             className="single_body"
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
-          <br />
-          <Link to={"/blog"} className={"back"}>
-            &#8592; Back
-          </Link>
+          <Footer/>
         </article>
       </div>
     </>

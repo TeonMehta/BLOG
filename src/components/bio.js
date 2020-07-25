@@ -3,9 +3,11 @@ import React from "react"
 const Bio = () => {
   return (
     <div className="bio">
-      <p>A personal journal by <span>Teon Mehta</span><br/>
-      Focused on Computer Science. Tech. Business. Currently making the next Facebook..</p>
-
+      <div>
+        From the ground up. Focused on Computer Science.  Programming.  Tech.
+        <br />A personal journal by <span>Teon Mehta</span> ~ Making the next
+        Facebook..
+      </div>
     </div>
   )
 }

@@ -5,9 +5,9 @@ $black: #1b1b1b;
   min-height: 100vh;
 }
 article {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-.back{
+.back {
   display: flex;
   justify-content: flex-end;
 }
@@ -31,18 +31,18 @@ article {
 }
 // MOBILE
 @media only screen and (max-width: 768px) {
-  .single_author{
+  .single_author {
     transform: none;
     position: initial;
     text-align: right;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
-  .single_title{
+  .single_title {
     font-size: 3em;
     margin-bottom: 10%;
     text-align: center;
   }
-  .single_subtitle{
+  .single_subtitle {
     margin-bottom: 10%;
   }
   .back {
@@ -51,7 +51,7 @@ article {
     bottom: 0;
     right: 0;
     top: 95%;
-    padding-right:5%;
+    padding-right: 5%;
     text-align: right;
     z-index: 1;
     width: 100%;

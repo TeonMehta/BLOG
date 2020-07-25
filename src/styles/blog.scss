@@ -6,7 +6,6 @@ a {
 }
 .post {
   font-family: "Oswald", sans-serif;
-  //width: 90%;
   height: 100%;
 }
 .post_title {
@@ -33,15 +32,16 @@ a {
     pointer-events: none;
   }
 }
-.bio{
+.bio {
   font-family: "Oswald", sans-serif;
   margin-left: auto;
   margin-right: auto;
   max-width: 42rem;
   padding: 0.625rem 1.3125rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  white-space: pre;
 }
-header{
+header {
   margin-left: auto;
   margin-right: auto;
   max-width: 42rem;
@@ -54,9 +54,37 @@ header{
     font-size: 1.4427rem;
   }
 }
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.75rem;
+}
+.single_subtitle {
+  font-weight: normal;
+}
 // MOBILE
 @media only screen and (max-width: 768px) {
+  .bio {
+    font-size: 0.7rem;
+  }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .bio {
+    font-size: 0.7rem;
+  }
 }

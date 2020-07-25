@@ -4,11 +4,10 @@ import React from "react"
 import "../styles/header.scss"
 import Toggle from "./toggle"
 
-
 const Header = ({ siteTitle }) => (
   <header>
     <Link to="/">TEON MEHTA</Link>
-    <Toggle/>
+    <Toggle />
   </header>
 )
 

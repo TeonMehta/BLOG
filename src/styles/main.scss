@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Titillium+Web:wght@200;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Poppins:wght@100;300;400;500;700&family=Staatliches&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;700&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Titillium+Web:wght@200;300;400&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Poppins:wght@100;300;400;500;700&family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow:hidden;
+  overflow: hidden;
 }
 a {
   transition: 0.4s ease-in-out;
@@ -52,7 +51,8 @@ body.dark {
   .post_title,
   .post_tags li a,
   a,
-  .light-dark, .bio {
+  .light-dark,
+  .bio {
     color: white;
     background: hsl(0, 0%, 10%);
   }
@@ -68,21 +68,5 @@ article {
 }
 .light-dark {
   font-family: "Oswald", sans-serif;
+  padding: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
