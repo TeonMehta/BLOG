@@ -64,7 +64,7 @@ h3,
 h4,
 h5,
 h6,
-h1,{
+h1 {
   margin: 1rem 0;
   font-weight: bold;
 }
@@ -77,11 +77,12 @@ h3 {
 h4 {
   font-size: 1.75rem;
 }
-.single_subtitle, .single_title {
+.single_subtitle,
+.single_title {
   font-weight: normal;
 }
 
-deckgo-highlight-code{
+deckgo-highlight-code {
   margin: 2rem 0;
 }
 // MOBILE

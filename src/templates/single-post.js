@@ -31,7 +31,7 @@ const SinglePost = ({ data }) => {
             className="single_body"
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
-          <Footer/>
+          <Footer />
         </article>
       </div>
     </>
