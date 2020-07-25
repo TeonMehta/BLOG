@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import "../styles/header.scss"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
