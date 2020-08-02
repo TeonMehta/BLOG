@@ -8,6 +8,7 @@ featuredImage: ./images/CODE.png
 tags:
   - computer science
   - python
+  - how to code
 ---
 We’re living in a future where nearly everything we use has been programmed with a mix of underlying hardware and software to bring our current world to life.
 
