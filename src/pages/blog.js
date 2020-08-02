@@ -9,13 +9,13 @@ import Bio from "../components/bio"
 
 const BlogPage = () => (
   <>
-    <SEO title="A Personal Blog" />
+    <SEO title="A Tech Blog" />
     <StaticQuery
       query={blogQuery}
       render={data => {
         console.log(data.allMarkdownRemark.edges)
         return (
-          <div className={"blog-page-container"} fluid>
+          <div className={"blog-page-container"}>
             <Header />
             <Bio/>
             {data.allMarkdownRemark.edges.map(({ node, i }) => (

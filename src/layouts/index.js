@@ -8,14 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 //import { useStaticQuery, graphql } from "gatsby"
-
 import "./layout.css"
 import "../styles/main.scss"
-import "../styles/MonumentExtended-Regular.otf"
-import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
-deckDeckGoHighlightElement();
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
+require("typeface-anton")
+require("typeface-oswald")
+deckDeckGoHighlightElement()
 const Layout = ({ children, location }) => {
-
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {

@@ -4,9 +4,8 @@ const Bio = () => {
   return (
     <div className="bio">
       <div>
-        From the ground up. Focused on Computer Science.  Programming.  Tech.
-        <br />A personal journal by <span>Teon Mehta</span> ~ Making the next
-        Facebook..
+        A personal journal. Focused on Computer Science.  Programming.  Tech.
+        <br />From the ground up. Making the next Facebook..
       </div>
     </div>
   )

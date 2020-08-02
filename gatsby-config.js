@@ -11,7 +11,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-dark-mode",
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -19,9 +19,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-highlight-code`,
             options: {
-              terminal: 'carbon',
-              theme: 'shades-of-purple'
-            }
+              terminal: "carbon",
+              theme: "shades-of-purple",
+            },
           },
         ],
       },
