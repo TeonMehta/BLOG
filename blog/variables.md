@@ -5,9 +5,9 @@ title: Variables
 subtitle: The way in which we remember and store data
 author: Teon Mehta
 tags:
-  - Computer Science
-  - Python
-  - How to Code
+  - computer science
+  - python
+  - how to code
 ---
 The essence of computer programming is working through data and procedures. Every program we create is made up of the information we need to use (data) and how we intend to manipulate that information (procedures). But, how do we express this data that we want to work with? The answer is variables.
 
