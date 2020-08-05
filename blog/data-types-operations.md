@@ -1,5 +1,5 @@
 ---
-path: data-types-
+path: data-types
 date: 2020-08-04T16:59:53.843Z
 title: Data Types & Operations
 subtitle: Specifying the core objects that power our code
