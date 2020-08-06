@@ -3,6 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/team.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/topics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tags-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tags-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags-post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +111,7 @@
       <workItem from="1596480554392" duration="858000" />
       <workItem from="1596555369935" duration="2810000" />
       <workItem from="1596574237198" duration="2208000" />
-      <workItem from="1596658564946" duration="3154000" />
+      <workItem from="1596658564946" duration="14915000" />
     </task>
     <servers />
   </component>
@@ -113,10 +128,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1591665437240" />
-    <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595645125084">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="457" y="-855" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596680869078">
+      <screen x="-110" y="-1057" width="1920" height="1057" />
     </state>
     <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1595645125084" />
+    <state x="457" y="-855" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.734/-110.-1057.1920.1057@-110.-1057.1920.1057" timestamp="1596680869078" />
     <state x="302" y="177" key="EditFileWatcherDialog" timestamp="1591068887223">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

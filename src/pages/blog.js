@@ -13,11 +13,10 @@ const BlogPage = () => (
     <StaticQuery
       query={blogQuery}
       render={data => {
-        console.log(data.allMarkdownRemark.edges)
         return (
           <div className={"blog-page-container"}>
             <Header />
-            <Bio/>
+            <Bio />
             {data.allMarkdownRemark.edges.map(({ node, i }) => (
               <Post
                 className="post--"

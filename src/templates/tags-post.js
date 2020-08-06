@@ -3,9 +3,11 @@ import { graphql } from "gatsby"
 import Post from "../components/Post"
 
 const TagsPost = ({ data, pageContext }) => {
-  // const { tag } = pageContext
-  // const { totalCount } = data.allMarkdownRemark
-  // const pageHeader = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`
+  const { tag } = pageContext
+  const { totalCount } = data.allMarkdownRemark
+  const pageHeader = `${totalCount} post${
+    totalCount === 1 ? "" : "s"
+  } tagged with "${tag}"`
   return (
     <div>
       <>
@@ -31,7 +33,7 @@ export default TagsPost
 export const tagQuery = graphql`
   query($tag: String!) {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
@@ -40,6 +42,8 @@ export const tagQuery = graphql`
           id
           frontmatter {
             date(formatString: "MMMM Do, YYYY")
+            title
+            subtitle
             author
             tags
           }

@@ -8,17 +8,19 @@ const TagsPage = ({ pageContext }) => {
 
   return (
     <>
-      <Header/>
-      <SEO title="All tags" />
-      <ul>
-        {tags.map(tag => (
-          <li key={tag}>
-            <a href={`/tag/${slugify(tag)}`}>
-              {tag} {tagPostCounts[tag]}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <SEO title="All Topics" />
+      <div className={"blog-page-container"}>
+        <Header />
+        <ul className="topics">
+          {tags.map(tag => (
+            <li key={tag}>
+              <a href={`/topic/${slugify(tag)}`}>
+                {tag} ~ {tagPostCounts[tag]}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   )
 }

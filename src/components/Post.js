@@ -13,7 +13,7 @@ const Post = ({ title, subtitle, author, slug, date, body, tags }) => {
       <ul className="post_tags">
         {tags.map(tag => (
           <li className={"tag"} key={tag}>
-            <Link to={`/tag/${slugify(tag)}`}> {tag}</Link>
+            <Link to={`/topic/${slugify(tag)}`}> {tag}</Link>
           </li>
         ))}
       </ul>
