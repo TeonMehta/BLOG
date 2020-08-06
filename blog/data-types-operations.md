@@ -5,9 +5,9 @@ title: Data Types & Operations
 subtitle: Specifying the core objects that power our code
 author: Teon Mehta
 tags:
-  - compter science
-  - python
-  - how to code
+  - Computer Science
+  - Python
+  - How to Code
 ---
 We're going to look at the core language of Python. Previously, we described how variables are containers for your data. Now, we will dive deeper into the actual types of data available to us in programming as well as some of the operations available.
 
