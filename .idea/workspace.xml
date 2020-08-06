@@ -3,21 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/team.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/topics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/single-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/single-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tags-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tags-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags-post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +100,7 @@
       <workItem from="1596480554392" duration="858000" />
       <workItem from="1596555369935" duration="2810000" />
       <workItem from="1596574237198" duration="2208000" />
-      <workItem from="1596658564946" duration="14915000" />
+      <workItem from="1596658564946" duration="16118000" />
     </task>
     <servers />
   </component>

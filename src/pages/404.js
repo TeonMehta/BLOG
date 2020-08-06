@@ -1,7 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
-import Bio from "../components/bio"
 import Header from "../components/header"
 
 const NotFoundPage = () => (
