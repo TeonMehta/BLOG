@@ -91,8 +91,7 @@ True
 False
 ```
 
-As shown above, logical operators add another level of complexity to our boolean expressions.  And is a test to see if both expressions are true. If they are both true then the condition fully equates to being True. If one is false then the final result is False. Or tests where either one of the written expressions turns out to be true. If one of the conditions passes, the full condition is True. This is read left-to-right. If the first expression on the left is True, then the following expression is not processed.
-Finally, Not is used to negate the boolean expression.
+As shown above, logical operators add another level of complexity to our boolean expressions.  And is a test to see if both expressions are true. If they are both true then the condition fully equates to being True. If one is false then the final result is False. Or tests where either one of the written expressions turns out to be true. If one of the conditions passes, the full condition is True. This is read left-to-right. If the first expression on the left is True, then the following expression is not processed. Finally, Not is used to negate the boolean expression.
 
 #### Identity Operators
 
