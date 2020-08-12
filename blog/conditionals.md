@@ -35,7 +35,7 @@ Comparison operators are used comparing two statements together.
 <=	# Less than or equal to
 >=	# Greater than or equal to
 ==	# Equality (equal to)
-!=  # Inequality (not equal to)
+!=    # Inequality (not equal to)
 ```
 
 You've probably seen these before in math class. However, there are a couple of differences in Python. Namely, the double equals sign (==) is not to be confused with the assignment operator used for variables. The not equals (!=) is used to prove inequality, but the "!" sign is widely used across the board to mean "not" equal to.
