@@ -2,7 +2,7 @@
 path: conditionals
 date: 2020-08-12T00:04:09.796Z
 title: Conditionals
-subtitle: Bringing real world logic into programming
+subtitle: Bringing real world logic into programs
 author: Teon Mehta
 tags:
   - Computer Science
