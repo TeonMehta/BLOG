@@ -11,7 +11,7 @@ tags:
 ---
 So far, we've taken our first steps to understanding what code is. We've discussed how to get up and running and topics like variables and data types. However, we have yet to program.  Conditionals are our first step into bringing logic to our programs. Up until now, our code has been sequential, executing each statement from top to bottom. Conditionals control the flow of execution in your programs. 
 
-## PSEUDO CODE
+## Pseudocode
 
 Pseudocode is like a fake code that programmers use to represent real code to gather their thoughts. It reads like English and the idea behind it is to lay down the steps to implement in real code. Take a look here...
 
@@ -40,11 +40,11 @@ Otherwise CANNOT approve the loan
 This is the pseudocode for a simple bank loan process. This is the way programmers go about writing algorithms, clearly thinking through each step of the process before writing any actual code.  Notice a couple of details; we've set all the information we'll need in the beginning, we've used keywords like "IF" and "ELSE" (will be handy later) and mainly we've indented our steps for clarity.
 At the end of this post, we will transition this pseudo code into a real program and everything will come together. Let's tackle some of the preliminaries...
 
+
+
 ## Boolean Operators
 
 Before we explain conditional statements fully, we need to elaborate on booleans and their operations. As we mentioned before boolean values are either True or False (the capitalization is needed). However, to evaluate whether or not an expression is of either value we need to test. We test expressions with three different types of operators.
-
-
 
 #### Comparison Operators
 
@@ -193,7 +193,7 @@ You're too young to get in!
 DONE!   
 ```
 
-We've added onto our last if statement in this section. After the if clause is executed, if it evaluates to True the following indented code block gets ran. Otherwise, our program jumps to the else clause, and that code is executed. 
+We've added onto our last if statement in this section. After the *if* clause is executed, if it evaluates to True the following indented code block gets ran. Otherwise, our program jumps to the else clause, and that code is executed. 
 
 #### Elif Statement
 
@@ -242,7 +242,7 @@ Great, we've shortened done a regular four-lined statement to a simple one-liner
 
 
 
-## Nested Statements
+##  Final Code
 
 Remember the pseudocode from the start of this article? We're finally going to turn it into real code.
 
@@ -252,6 +252,7 @@ employement_status = str(input('Are you a employed? Yes or No? '))
 salary = float(input('What is your current salary?'))
 student_status = str(input('Are you a student? Yes or No? '))
 loan = None
+
 
 #   Example case stats
 credit_score = 850
@@ -274,3 +275,19 @@ else:
 print(loan)
 
 ```
+
+So, we've brought our pseudocode to life! We have also brought together all if not most of the concepts discussed throughout this post. Let's describe the code we've got written.
+
+First, we have our variables, which we are getting from the inputs returned. When we run this python file it will prompt us to input all these values that will then be stored in our variables. To save us time, I've just re-written the variables containing arbitrary values.
+
+We begin by checking if our credit score is 800 or above, if so the loan variable is set to approve.
+
+Second, our case involves getting the employment status, if it is set to anything other than "yes" then the subsequent indented block is skipped. If set to yes then we have *nested* if-else statements. Within this nested block, we check whether the salary is 50 thousand dollars or high, if so then the loan is approved.
+
+This last *elif* (else-if) clause makes use of the logical operators. We first test if the applicant is a student, if so we move on to the next expression to the right of the and keyword. Notice this section is grouped together with brackets, we're testing if either the credit score or the salary is high enough to meet the loan requirements. If either passes the test then the boolean value is set to True along with the student status, thus giving us the approved loan.
+
+Anything else results in a denied loan, unfortunately with the final else statement. Finally, our program prints out the loan variable.
+
+Outro
+
+There you have it, we have leveled up in our programming journey and can now use logic to solve real-world problems with code. Whether this seems simple and mundane or on the flip side very complex, we're doing great things here. Keep coding!
