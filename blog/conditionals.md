@@ -247,5 +247,30 @@ Great, we've shortened done a regular four-lined statement to a simple one-liner
 Remember the pseudocode from the start of this article? We're finally going to turn it into real code.
 
 ```
+credit_score = float(input('Whats your Credit Score? '))
+employement_status = str(input('Are you a employed? Yes or No? '))
+salary = float(input('What is your current salary?'))
+student_status = str(input('Are you a student? Yes or No? '))
+loan = None
+
+#   Example case stats
+credit_score = 850
+employement_status = 'yes'
+salary = 40000.00
+student_status = 'yes'
+
+
+if credit_score >= 800:
+    loan = 'approved'
+elif employement_status == 'yes':
+    if salary >= 50000:
+        loan = 'approved'
+    else:
+        loan = 'denied'
+elif student_status == 'yes' and (credit_score >= 800 or salary >= 50000):
+    loan = 'approved'
+else:
+    loan = 'denied'
+print(loan)
 
 ```
