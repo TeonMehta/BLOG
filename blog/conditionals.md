@@ -120,7 +120,7 @@ Finally, Not is used to negate the boolean expression.
 
 #### Identity Operators
 
-Python's identity operators compare two values but take a step further. There are two operators,*is*and*is not*. They are used to determine where both objects are the same in computer memory as opposed to just containing the same data.
+Python's identity operators compare two values but take a step further. There are two operators, *is* and *is not*. They are used to determine where both objects are the same in computer memory as opposed to just containing the same data.
 
 ```
 >>> x = 'this is x'
@@ -152,7 +152,7 @@ Now that we've looked at the prerequisites, let's finally start controlling the 
 
 #### If Statement
 
-Here we introduce the *if statement*. In the real world, our first step to making a decision starts with an "if"... If this, do that.
+Here we introduce the **If** *statement*. In the real world, our first step to making a decision starts with an "if"... If this, do that.
 
 ```
 # If Statement
@@ -175,7 +175,7 @@ The line after our colon is indented and this is done purposefully. Python requi
 
 #### Else Statement
 
-We started with an if statement, but what if that doesn't work out? We have the Else statement. This works just like an ultimatum if this or else this. Look...
+We started with an if statement, but what if that doesn't work out? We have the **Else** statement. This works just like an ultimatum if this or else this. Look...
 
 ```
 age = 18
@@ -197,7 +197,7 @@ We've added onto our last if statement in this section. After the *if* clause is
 
 #### Elif Statement
 
-What if we want to add more than one clause? Maybe we have multiple scenarios so therefore, we would need multiple outcomes. This is where the Elif statement comes in (shorthand for else if).
+What if we want to add more than one clause? Maybe we have multiple scenarios so therefore, we would need multiple outcomes. This is where the **Elif** statement comes in (shorthand for else if).
 
 ```
 if age >= 21:
@@ -259,6 +259,7 @@ credit_score = 850
 employement_status = 'yes'
 salary = 40000.00
 student_status = 'yes'
+loan = None
 
 
 if credit_score >= 800:
@@ -288,6 +289,8 @@ This last *elif* (else-if) clause makes use of the logical operators. We first t
 
 Anything else results in a denied loan, unfortunately with the final else statement. Finally, our program prints out the loan variable.
 
-Outro
+
+
+## Outro
 
 There you have it, we have leveled up in our programming journey and can now use logic to solve real-world problems with code. Whether this seems simple and mundane or on the flip side very complex, we're doing great things here. Keep coding!
