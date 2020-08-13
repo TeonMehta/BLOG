@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +97,8 @@
       <workItem from="1596555369935" duration="2810000" />
       <workItem from="1596574237198" duration="2208000" />
       <workItem from="1596658564946" duration="16118000" />
+      <workItem from="1597190417764" duration="1339000" />
+      <workItem from="1597271282681" duration="19000" />
     </task>
     <servers />
   </component>
@@ -134,6 +132,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="119" y="31" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1595209728008" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596928546631">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1596928546631" />
     <state x="363" y="179" key="git4idea.merge.GitPullDialog" timestamp="1595713718565">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
