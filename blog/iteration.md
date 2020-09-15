@@ -1,5 +1,5 @@
 ---
-path: loops
+path: iteration
 date: 2020-09-15T00:46:26.693Z
 title: Iteration
 subtitle: Repetition is done better by computers than by humans
