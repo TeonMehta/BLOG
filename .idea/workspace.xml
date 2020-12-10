@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f557bd62-6f12-41bc-ac51-b394a5976a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,8 +48,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,6 +66,7 @@
       <recent name="$PROJECT_DIR$/src/layouts" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -99,11 +107,14 @@
       <workItem from="1596658564946" duration="16118000" />
       <workItem from="1597190417764" duration="1339000" />
       <workItem from="1597271282681" duration="19000" />
+      <workItem from="1600385845069" duration="648000" />
+      <workItem from="1600548439630" duration="248000" />
+      <workItem from="1605558491882" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -111,27 +122,15 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591665437240">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="328" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1591665437240" />
     <state x="457" y="-855" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596680869078">
       <screen x="-110" y="-1057" width="1920" height="1057" />
     </state>
     <state x="378" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1595645125084" />
     <state x="457" y="-855" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.734/-110.-1057.1920.1057@-110.-1057.1920.1057" timestamp="1596680869078" />
-    <state x="302" y="177" key="EditFileWatcherDialog" timestamp="1591068887223">
+    <state x="145" y="0" key="SettingsEditor" timestamp="1600386847825">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="302" y="177" key="EditFileWatcherDialog/0.0.1280.800@0.0.1280.800" timestamp="1591068887223" />
-    <state x="228" y="141" key="IDE.errors.dialog" timestamp="1591666702898">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="228" y="141" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1591666702898" />
-    <state x="119" y="31" key="SettingsEditor" timestamp="1595209728008">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="119" y="31" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1595209728008" />
+    <state x="145" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1600386847825" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596928546631">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

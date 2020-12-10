@@ -11,13 +11,6 @@ a:hover {
   opacity: 0.5;
   text-decoration: none !important;
 }
-.start_reading {
-  font-family: "Anton", sans-serif;
-  text-align: center;
-  font-size: 4em;
-  position: relative;
-  top: 40%;
-}
 
 .container-fluid,
 .container-lg,
@@ -26,29 +19,7 @@ a:hover {
 .container-xl {
   height: 100vh;
 }
-body {
-  --bg: white;
-  --textNormal: #222;
-  --textTitle: #222;
-  --textLink: blue;
-  --hr: hsla(0, 0%, 0%, 0.2);
-  background-color: var(--bg);
-}
-body.dark {
-  -webkit-font-smoothing: antialiased;
-  --bg: hsl(0, 0%, 10%);
-  --hr: hsla(0, 0%, 100%, 0.2);
-  .post,
-  .single_post,
-  .post_title,
-  .post_tags li a,
-  a,
-  .light-dark,
-  .bio {
-    color: white;
-    background: hsl(0, 0%, 10%);
-  }
-}
+
 .blog-page-container {
   min-height: 100vh;
 }
@@ -62,10 +33,7 @@ article {
   max-width: 42rem;
   padding: 2.625rem 1.3125rem;
 }
-.light-dark {
-  font-family: "Oswald", sans-serif;
-  padding: 5px;
-}
+
 
 .formkit-powered-by {
   display: none !important;
@@ -88,3 +56,4 @@ article {
     font-size: 2em;
   }
 }
+
